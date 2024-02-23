@@ -1,0 +1,3 @@
+[submodule "lib/esp-restclient"]
+	path = lib/esp-restclient
+	url = https://github.com/farajfarook/esp-restclient.git

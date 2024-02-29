@@ -5,7 +5,7 @@
 
 #define SERIAL_BAUD_RATE 115200
 #define SERVER_PORT 80
-#define HOST_ADDRESS "nodemcu.cliquesrl.it"
+#define HOST_ADDRESS "nodemcu.kazooinc.it"
 #define HOST_PORT 5000
 #define HOST_PROTOCOL "https"
 #define HOST_BASE_PATH "/receive/update"

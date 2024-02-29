@@ -1,6 +1,7 @@
 #include <ESP8266React.h>
 #include <RestClient.h>
 #include <Sensor.h>
+#include <PrettyDebug.h>
 
 #define SERIAL_BAUD_RATE 115200
 #define SERVER_PORT 80
@@ -16,9 +17,14 @@ Sensor sensor(&client);
 
 void setup() {
   Serial.begin(SERIAL_BAUD_RATE);
+  ATTACH_DEBUG_STREAM(&Serial);
+  DEBUG_OK("Serial debug stream attached");
   esp8266React.begin();  // TODO: change demo project
+  DEBUG_OK("ESP8266React initialized");
   server.begin();
+  DEBUG_OK("Server initialized");
   sensor.begin();
+  DEBUG_OK("Sensor initialized");
 }
 
 void loop() {

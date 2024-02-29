@@ -1,3 +1,15 @@
 [submodule "lib/esp-restclient"]
 	path = lib/esp-restclient
 	url = https://github.com/farajfarook/esp-restclient.git
+[submodule "lib/Adafruit_AHTX0"]
+	path = lib/Adafruit_AHTX0
+	url = https://github.com/adafruit/Adafruit_AHTX0.git
+[submodule "lib/Adafruit_BusIO"]
+	path = lib/Adafruit_BusIO
+	url = https://github.com/adafruit/Adafruit_BusIO.git
+[submodule "lib/Adafruit_Sensor"]
+	path = lib/Adafruit_Sensor
+	url = https://github.com/adafruit/Adafruit_Sensor.git
+[submodule "lib/PrettyDebug"]
+	path = lib/PrettyDebug
+	url = https://github.com/shadlyd15/PrettyDebug.git
